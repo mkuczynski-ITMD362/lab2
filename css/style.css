@@ -28,11 +28,20 @@ input {
 		font-size: 1.5em;
 	}
 	label{
+		display: inline-block;
 		margin: auto;
 		width: 10em;
 	}
 	input{
+		display: inline-block;
+		margin: auto;
 		width: 10em;
 	}
-	
+	#submit{
+		width: 25%;
+		display: block;
+		margin-top: 10px;
+		margin-right: auto;
+		margin-left: auto;
+	}
 }
